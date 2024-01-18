@@ -3,6 +3,7 @@
 set -e
 
 source package_base.sh
+source install_desktop.sh
 
 if declare -f "$1" > /dev/null
 then
