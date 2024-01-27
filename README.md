@@ -4,7 +4,7 @@
 
 This project is nothing more than a docker/podman image that provides a range of tools specifically for the IT security field.
 
-It is designed to be deployed en masse for use by students or Labs, for example (see Project [0x02-ProjectViper](https://github.com/TheHackdes/0x02---Project-Viper)).
+It is designed to be deployed a lot for use by students or Labs, for example (see Project [0x02-ProjectViper](https://github.com/TheHackdes/0x02---Project-Viper)).
 
 ## Table of contents
 
@@ -23,18 +23,18 @@ cd 0x01---Project-Hades
 docker build -f Dockerfile -t <NAME> .
 ```
 
-## Utilisation
+## Use
 
-Une fois l'image cree vous pouver l'utiliser de la facon suivante :
+Once the image is created you can use it in the following way:
 
 ```bash
 docker run --rm -ti <NAME>
 ```
 
-Vous y retrouverez :
+You will find there:
 
-- Des outils d'enumeration : `nmap`
-- Des outils de productiviter : `fzf`
+-Enumeration tools: `nmap`
+-Productivity tools: `fzf`
 
 ## Usage
 Once the image has been created, you can use it as follows:
